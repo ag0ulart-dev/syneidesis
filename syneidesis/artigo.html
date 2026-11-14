@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigo | Syneidesis</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/markdown.js"></script>
+</head>
+<body>
+    <header>
+        <picture>
+            <a href="index.html">
+                <img id="tituloimg" src="imagens/title.png" alt="Syneidesis">
+            </a>
+        </picture>
+
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="artigos.html">Artigos</a>
+            <a href="poemas.html">Poemas</a>
+            <a href="desenhos.html">Desenhos</a>
+            <a href="destaques.html">Destaques</a>
+            <a href="leituras.html">Leituras</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <article id="conteudo-artigo"></article>
+    </main>
+
+    <footer>Desenvolvido por Adham Goulart</footer>
+
+    <script>
+    const parametros = new URLSearchParams(window.location.search);
+    const categoria = parametros.get("categoria");
+    const texto = parametros.get("texto");
+
+    const categorias = ["artigos", "poemas", "leituras", "sobre"];
+
+    if (categorias.includes(categoria) && texto) {
+        carregarArtigo(categoria + "/" + texto + ".md");
+    }
+    </script>
+</body>
+</html>
