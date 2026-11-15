@@ -1,6 +1,6 @@
 # A relação da filosofia estética de Schiller com a peça teatral O Fingidor, de Samir Yazbek
 
-*Uma reflexão filosófica.*
+*<span id="tempo-leitura"></span>. 12/10/26.*
 
 ---
 

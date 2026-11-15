@@ -1,5 +1,7 @@
 # Os prazeres do jovem Werther
 
+*<span id="tempo-leitura"></span>. 13/11/26.*
+
 ---
 
 Ah Wilhelm! Ela - ela finalmente me beijou, ela! Acreditas? 

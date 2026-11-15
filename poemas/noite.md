@@ -1,5 +1,7 @@
 # Noite
 
+*<span id="tempo-leitura"></span>. 2/11/26.*
+ 
 ---
 
 De dia, a razão; da noite, a paixão.

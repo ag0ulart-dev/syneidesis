@@ -1,5 +1,7 @@
 # Boa noite, querido Werther!
 
+*<span id="tempo-leitura"></span>. 8/11/26.*
+
 ---
 
 Na calada fria da noite, minha mente se apazigua,

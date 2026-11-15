@@ -1,5 +1,7 @@
 # Brasil, ame-me ou deixe-me
 
+*<span id="tempo-leitura"></span>. 9/11/26.*
+
 ---
 
 
